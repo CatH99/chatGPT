@@ -1,0 +1,37 @@
+{
+    "name": "prompts-royale",
+    "private": true,
+    "version": "0.1.0",
+    "scripts": {
+        "build": "nuxt build",
+        "dev": "nuxt dev",
+        "generate": "nuxt generate",
+        "preview": "nuxt preview",
+        "postinstall": "nuxt prepare"
+    },
+    "devDependencies": {
+        "@antfu/eslint-config": "^0.39.7",
+        "@iconify-json/tabler": "^1.1.80",
+        "@nuxt/devtools": "latest",
+        "@types/node": "^18",
+        "@types/random-normal": "^1.0.1",
+        "@vueuse/motion": "^2.0.0",
+        "@vueuse/nuxt": "^10.2.1",
+        "eslint": "^8.44.0",
+        "eslint-plugin-import": "^2.27.5",
+        "nuxt": "^3.6.2",
+        "typescript": "^5.1.6",
+        "volar-service-vetur": "latest"
+    },
+    "dependencies": {
+        "@nuxthq/ui": "npm:@nuxthq/ui-edge@latest",
+        "@unocss/nuxt": "^0.53.4",
+        "cursive-gpt": "^0.8.0",
+        "echarts": "^5.4.2",
+        "p-limit": "^4.0.0",
+        "random-normal": "^1.0.0",
+        "resguard": "^1.4.3",
+        "vue-echarts": "^6.6.0",
+        "vue-sonner": "^0.3.3"
+    }
+}
